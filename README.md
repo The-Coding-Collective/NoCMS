@@ -6,12 +6,9 @@ On publishing the newsitem in the CMS, they'll want the newsitems to be publishe
 
 Why not use it the other way around? You're essentialy making the social channels a CMS this way.
 And content managers are already very familiar with these systems. This way Content managers don't have to be trained on a new system.
-Another plus is that there's already lots of information available on these channels.
+Another plus is that there's already lots of information available on these channels, so your website will be filled with information in no time.
 
-Based on .NET
-
-Consist of two seperate systems, the frontend and backend.
-
+It's all based on .NET and consist of two seperate systems, the frontend and backend.
 
 **BACKEND**
 The backend will be the system where pages can be created, components can be dragged and dropped on each page.
@@ -29,3 +26,9 @@ The frontend will be the website itself. Based on MVC.
 On rendering the website will retrieve the JSON for the page through a WEBAPI call.
 Then it will do the OAUTH calls to the OAUTH providers of each component.
 On receiving the data, the components will be rendered.
+
+**INITIAL SETUP**
+You need to enter the OAUTH keys for each of your OAUTH providers, create your datasources.
+Then create your pages. and drag drop components on each page.
+Then link the previous datasources to the various page components.
+and you're done.
