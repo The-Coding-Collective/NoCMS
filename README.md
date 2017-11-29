@@ -10,7 +10,7 @@ Another plus is that there's already lots of information available on these chan
 
 It's all based on .NET and consist of two seperate systems, the frontend and backend.
 
-**BACKEND**
+## Backend
 The backend will be the system where pages can be created, components can be dragged and dropped on each page.
 Per component a different datasource can be configured.
 
@@ -20,14 +20,14 @@ OAUTH providers can be configured with the correct keys.
 
 The data from the backend will be provided through a webapi in the form of JSON.
 
-**FRONTEND**
+## Frontend
 The frontend will be the website itself. Based on MVC.
 
 On rendering the website will retrieve the JSON for the page through a WEBAPI call.
 Then it will do the OAUTH calls to the OAUTH providers of each component.
 On receiving the data, the components will be rendered.
 
-**INITIAL SETUP**
+### Initial setup
 You need to enter the OAUTH keys for each of your OAUTH providers, create your datasources.
 Then create your pages. and drag drop components on each page.
 Then link the previous datasources to the various page components.
